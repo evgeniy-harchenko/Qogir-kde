@@ -28,7 +28,7 @@
   <defs
      id="defs29" />
   <sodipodi:namedview
-     pagecolor="#dedede"
+     pagecolor="#303030"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
@@ -36,23 +36,23 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1016"
+     inkscape:window-width="1533"
+     inkscape:window-height="949"
      id="namedview27"
      showgrid="false"
      inkscape:zoom="1.8963318"
-     inkscape:cx="-47.723715"
-     inkscape:cy="33.222034"
-     inkscape:window-x="0"
-     inkscape:window-y="32"
-     inkscape:window-maximized="1"
+     inkscape:cx="-67.498735"
+     inkscape:cy="12.392346"
+     inkscape:window-x="-465"
+     inkscape:window-y="84"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg4306"
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="true"
      inkscape:snap-nodes="false"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#dedede">
+     inkscape:deskcolor="#303030">
     <inkscape:grid
        type="xygrid"
        id="grid892"
@@ -60,51 +60,51 @@
        originy="0" />
   </sodipodi:namedview>
   <g
-     style="opacity:0.5"
+     style="opacity:0.35"
      id="inactive-center"
-     transform="matrix(3.7795,0,0,3.7795,-164.99785,-613.51402)">
+     transform="matrix(3.7795,0,0,3.7795,-164.99785,-613.51423)">
     <rect
        x="43.655998"
        y="141.16"
-       width="10.054"
+       width="10.05424"
        height="7.9375"
        ry="3.7990001e-06"
-       style="opacity:0;stroke-width:0.40217;paint-order:stroke fill markers"
+       style="opacity:0;stroke-width:0.402175;paint-order:stroke fill markers"
        id="rect956" />
     <path
        inkscape:connector-curvature="0"
        d="m 47.454,143.71 -0.18707,0.18706 1.2294,1.2294 -1.2294,1.2289 0.18707,0.18707 1.2294,-1.2289 1.2289,1.2289 0.18707,-0.18707 -1.2289,-1.2289 1.2289,-1.2294 -0.18707,-0.18706 -1.2289,1.2294 z"
-       style="opacity:1;fill:#5c616c;fill-opacity:1;paint-order:stroke fill markers"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;paint-order:stroke fill markers"
        id="path958" />
   </g>
   <g
      id="active-center"
-     transform="matrix(3.7795,0,0,3.7795,-164.99785,-572.51402)"
-     style="opacity:1">
+     transform="matrix(3.7795,0,0,3.7795,-164.99785,-572.51423)"
+     style="opacity:0.75">
     <rect
        x="43.655998"
        y="141.16"
-       width="10.054"
+       width="10.05424"
        height="7.9375"
        ry="3.7990001e-06"
-       style="opacity:0;stroke-width:0.40217;paint-order:stroke fill markers"
+       style="opacity:0;stroke-width:0.402175;paint-order:stroke fill markers"
        id="rect976" />
     <path
        inkscape:connector-curvature="0"
        d="m 47.454,143.71 -0.18707,0.18706 1.2294,1.2294 -1.2294,1.2289 0.18707,0.18707 1.2294,-1.2289 1.2289,1.2289 0.18707,-0.18707 -1.2289,-1.2289 1.2289,-1.2294 -0.18707,-0.18706 -1.2289,1.2294 z"
-       style="fill:#5c616c;fill-opacity:1;paint-order:stroke fill markers"
+       style="fill:#ffffff;fill-opacity:1;paint-order:stroke fill markers"
        id="path978" />
   </g>
   <g
      id="hover-center"
-     transform="matrix(3.7795,0,0,3.7795,-164.99785,-533.51402)">
+     transform="matrix(3.7795,0,0,3.7795,-164.99785,-533.51423)">
     <rect
        x="43.655998"
        y="141.16"
-       width="10.054"
+       width="10.05424"
        height="7.9375"
        ry="3.7990001e-06"
-       style="fill:#f68086;paint-order:stroke fill markers;fill-opacity:1"
+       style="fill:#ff5757;fill-opacity:1"
        id="rect996" />
     <path
        inkscape:connector-curvature="0"
@@ -114,14 +114,14 @@
   </g>
   <g
      id="pressed-center"
-     transform="matrix(3.7795,0,0,3.7795,-164.99785,-493.51402)">
+     transform="matrix(3.7795,0,0,3.7795,-164.99785,-493.51423)">
     <rect
        x="43.655998"
        y="141.16"
-       width="10.054"
+       width="10.05424"
        height="7.9375"
        ry="3.7990001e-06"
-       style="fill:#d05258;paint-order:stroke fill markers;fill-opacity:1"
+       style="fill:#c93636;fill-opacity:1"
        id="rect1016" />
     <path
        inkscape:connector-curvature="0"
@@ -130,20 +130,20 @@
        id="path1018" />
   </g>
   <g
-     transform="matrix(3.7795,0,0,3.7795,-164.99785,-652.51381)"
+     transform="matrix(3.7795,0,0,3.7795,-164.99785,-652.51402)"
      id="deactivated-center"
-     style="opacity:0.5">
+     style="opacity:0.35">
     <rect
        id="rect880"
-       style="opacity:0;stroke-width:0.40217;paint-order:stroke fill markers"
+       style="opacity:0;stroke-width:0.402175;paint-order:stroke fill markers"
        ry="3.7990001e-06"
        height="7.9375"
-       width="10.054"
+       width="10.05424"
        y="141.16"
        x="43.655998" />
     <path
        id="path882"
-       style="opacity:1;fill:#5c616c;fill-opacity:1;paint-order:stroke fill markers"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;paint-order:stroke fill markers"
        d="m 47.454,143.71 -0.18707,0.18706 1.2294,1.2294 -1.2294,1.2289 0.18707,0.18707 1.2294,-1.2289 1.2289,1.2289 0.18707,-0.18707 -1.2289,-1.2289 1.2289,-1.2294 -0.18707,-0.18706 -1.2289,1.2294 z"
        inkscape:connector-curvature="0" />
   </g>
