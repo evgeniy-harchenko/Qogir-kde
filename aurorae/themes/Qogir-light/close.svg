@@ -28,7 +28,7 @@
   <defs
      id="defs29" />
   <sodipodi:namedview
-     pagecolor="#303030"
+     pagecolor="#dedede"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
@@ -52,7 +52,7 @@
      inkscape:snap-nodes="false"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#303030">
+     inkscape:deskcolor="#dedede">
     <inkscape:grid
        type="xygrid"
        id="grid892"
@@ -74,7 +74,7 @@
     <path
        inkscape:connector-curvature="0"
        d="m 47.454,143.71 -0.18707,0.18706 1.2294,1.2294 -1.2294,1.2289 0.18707,0.18707 1.2294,-1.2289 1.2289,1.2289 0.18707,-0.18707 -1.2289,-1.2289 1.2289,-1.2294 -0.18707,-0.18706 -1.2289,1.2294 z"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;paint-order:stroke fill markers"
+       style="opacity:1;fill:#5c616c;fill-opacity:1;paint-order:stroke fill markers"
        id="path958" />
   </g>
   <g
@@ -92,7 +92,7 @@
     <path
        inkscape:connector-curvature="0"
        d="m 47.454,143.71 -0.18707,0.18706 1.2294,1.2294 -1.2294,1.2289 0.18707,0.18707 1.2294,-1.2289 1.2289,1.2289 0.18707,-0.18707 -1.2289,-1.2289 1.2289,-1.2294 -0.18707,-0.18706 -1.2289,1.2294 z"
-       style="fill:#ffffff;fill-opacity:1;paint-order:stroke fill markers"
+       style="fill:#5c616c;fill-opacity:1;paint-order:stroke fill markers"
        id="path978" />
   </g>
   <g
@@ -143,7 +143,7 @@
        x="43.655998" />
     <path
        id="path882"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;paint-order:stroke fill markers"
+       style="opacity:1;fill:#5c616c;fill-opacity:1;paint-order:stroke fill markers"
        d="m 47.454,143.71 -0.18707,0.18706 1.2294,1.2294 -1.2294,1.2289 0.18707,0.18707 1.2294,-1.2289 1.2289,1.2289 0.18707,-0.18707 -1.2289,-1.2289 1.2289,-1.2294 -0.18707,-0.18706 -1.2289,1.2294 z"
        inkscape:connector-curvature="0" />
   </g>
