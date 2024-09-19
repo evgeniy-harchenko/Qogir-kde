@@ -426,7 +426,9 @@
          transform="translate(-58,904.36)"
          d="m 77,6 h 32 V 5 H 77 Z"
          id="path49"
-         style="fill:#000000;opacity:0.65" />
+         class="ColorScheme-Background"
+         fill="currentColor"
+         style="opacity:0.4" />
     </g>
     <g
        id="shadow-topleft"
@@ -475,7 +477,9 @@
       <path
          id="path64"
          d="M 16 909.36 C 13.784002 909.36 12 911.144 12 913.36 L 12 916.36 L 13 916.36 L 13 913.36 C 13 911.698 14.338002 910.36 16 910.36 L 19 910.36 L 19 909.36 L 16 909.36 z "
-         style="fill:#000000;opacity:0.65" />
+         class="ColorScheme-Background"
+         fill="currentColor"
+         style="opacity:0.4" />
     </g>
     <g
        id="shadow-center"

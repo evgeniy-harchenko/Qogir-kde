@@ -300,7 +300,9 @@
        height="0.5"
        x="4"
        y="126.5"
-       style="fill:#000000;opacity:0.45" />
+       class="ColorScheme-Background"
+       fill="currentColor"
+       style="opacity:0.3" />
   </g>
   <g
      transform="matrix(0.744186,0,0,2.4635078,-31.650717,48.656246)"
@@ -322,7 +324,9 @@
        id="path2128-3"
        d="m 13,26 c -2.770003,0 -5,2.229997 -5,5 h 1 c 0,-2.20914 1.790862,-4 4,-4 z"
        transform="matrix(0.5,0,0,0.5,-2.5002325,113.5003)"
-       style="fill:#000000;opacity:0.45" />
+       class="ColorScheme-Background"
+       fill="currentColor"
+       style="opacity:0.3" />
     <path
        id="path4234-6"
        style="opacity:0.75;fill:currentColor"
@@ -430,7 +434,9 @@
        height="0.5"
        x="4"
        y="126.5"
-       style="fill:#000000;opacity:0.45" />
+       class="ColorScheme-Background"
+       fill="currentColor"
+       style="opacity:0.3" />
   </g>
   <g
      transform="matrix(0.744186,0,0,2.4635078,-31.650704,-13.343751)"
@@ -473,7 +479,9 @@
        id="path2128"
        d="M 13 26 C 10.229997 26 8 28.229997 8 31 L 9 31 C 9 28.79086 10.790862 27 13 27 L 13 26 z "
        transform="matrix(0.5,0,0,0.5,-2.5002325,113.5003)"
-       style="fill:#000000;opacity:0.45" />
+       fill="currentColor"
+       class="ColorScheme-Background"
+       style="opacity:0.3" />
     <path
        id="path4234"
        style="fill:currentColor;opacity:0.96"
