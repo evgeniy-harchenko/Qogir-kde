@@ -47,8 +47,10 @@ install() {
 
   if [[ ${theme} == '-manjaro' ]]; then
     local a_theme="Manjaro"
+    local kvantum_theme="Manjaro"
   elif [[ ${theme} == '-ubuntu' ]]; then
     local a_theme="Ubuntu"
+    local kvantum_theme="Ubuntu"
   else
     local a_theme=""
   fi
@@ -56,29 +58,37 @@ install() {
   [[ ${color} == '-dark' ]] && local ELSE_DARK=${color}
   [[ ${color} == '-light' ]] && local ELSE_LIGHT=${color}
 
+  if [[ ${color} == '-dark' ]]; then
+    local kvantum_color="Dark"
+  elif [[ ${color} == '-light' ]]; then
+    local kvantum_color="Light"
+  else
+    local kvantum_color=""
+  fi
+
   cp -r ${SRC_DIR}/aurorae/themes/*                                                  ${AURORAE_DIR}
   cp -r ${SRC_DIR}/color-schemes/*.colors                                            ${SCHEMES_DIR}
   cp -r ${SRC_DIR}/wallpaper/${name}${theme}${ELSE_DARK}                             ${WALLPAPER_DIR}
 
-  mkdir -p                                                                           ${KVANTUM_DIR}/${name}${theme}${color}
-  cp -r ${SRC_DIR}/Kvantum/Qogir${color}/Qogir${color}.svg                           ${KVANTUM_DIR}/${name}${theme}${color}/${name}${theme}${color}.svg
-  cp -r ${SRC_DIR}/Kvantum/Qogir${color}/Qogir${color}.kvconfig                      ${KVANTUM_DIR}/${name}${theme}${color}/${name}${theme}${color}.kvconfig
-  mkdir -p                                                                           ${KVANTUM_DIR}/${name}${theme}${color}-solid
-  cp -r ${KVANTUM_DIR}/${name}${theme}${color}/${name}${theme}${color}.svg           ${KVANTUM_DIR}/${name}${theme}${color}-solid/${name}${theme}${color}-solid.svg
-  cp -r ${SRC_DIR}/Kvantum/${name}${color}-solid/${name}${color}-solid.kvconfig      ${KVANTUM_DIR}/${name}${theme}${color}-solid/${name}${theme}${color}-solid.kvconfig
+  mkdir -p                                                                           ${KVANTUM_DIR}/${name}${kvantum_theme}${kvantum_color}
+  cp -r ${SRC_DIR}/Kvantum/Qogir${color}/Qogir${color}.svg                           ${KVANTUM_DIR}/${name}${kvantum_theme}${kvantum_color}/${name}${kvantum_theme}${kvantum_color}.svg
+  cp -r ${SRC_DIR}/Kvantum/Qogir${color}/Qogir${color}.kvconfig                      ${KVANTUM_DIR}/${name}${kvantum_theme}${kvantum_color}/${name}${kvantum_theme}${kvantum_color}.kvconfig
+  mkdir -p                                                                           ${KVANTUM_DIR}/${name}${kvantum_theme}Solid${kvantum_color}
+  cp -r ${KVANTUM_DIR}/${name}${kvantum_theme}${kvantum_color}/${name}${kvantum_theme}${kvantum_color}.svg           ${KVANTUM_DIR}/${name}${kvantum_theme}Solid${kvantum_color}/${name}${kvantum_theme}Solid${kvantum_color}.svg
+  cp -r ${SRC_DIR}/Kvantum/${name}${color}-solid/${name}${color}-solid.kvconfig      ${KVANTUM_DIR}/${name}${kvantum_theme}Solid${kvantum_color}/${name}${kvantum_theme}Solid${kvantum_color}.kvconfig
 
   if [[ ${theme} == '-manjaro' ]]; then
-    sed -i "s|#5294e2|#2eb398|"                                                      ${KVANTUM_DIR}/${name}${theme}${color}/${name}${theme}${color}.svg
-    sed -i "s|#5294e2|#2eb398|"                                                      ${KVANTUM_DIR}/${name}${theme}${color}/${name}${theme}${color}.kvconfig
-    sed -i "s|#5294e2|#2eb398|"                                                      ${KVANTUM_DIR}/${name}${theme}${color}-solid/${name}${theme}${color}-solid.svg
-    sed -i "s|#5294e2|#2eb398|"                                                      ${KVANTUM_DIR}/${name}${theme}${color}-solid/${name}${theme}${color}-solid.kvconfig
+    sed -i "s|#5294e2|#2eb398|"                                                      ${KVANTUM_DIR}/${name}${kvantum_theme}${kvantum_color}/${name}${kvantum_theme}${kvantum_color}.svg
+    sed -i "s|#5294e2|#2eb398|"                                                      ${KVANTUM_DIR}/${name}${kvantum_theme}${kvantum_color}/${name}${kvantum_theme}${kvantum_color}.kvconfig
+    sed -i "s|#5294e2|#2eb398|"                                                      ${KVANTUM_DIR}/${name}${kvantum_theme}Solid${kvantum_color}/${name}${kvantum_theme}Solid${kvantum_color}.svg
+    sed -i "s|#5294e2|#2eb398|"                                                      ${KVANTUM_DIR}/${name}${kvantum_theme}Solid${kvantum_color}/${name}${kvantum_theme}Solid${kvantum_color}.kvconfig
   fi
 
   if [[ ${theme} == '-ubuntu' ]]; then
-    sed -i "s|#5294e2|#fb8441|"                                                      ${KVANTUM_DIR}/${name}${theme}${color}/${name}${theme}${color}.svg
-    sed -i "s|#5294e2|#fb8441|"                                                      ${KVANTUM_DIR}/${name}${theme}${color}/${name}${theme}${color}.kvconfig
-    sed -i "s|#5294e2|#fb8441|"                                                      ${KVANTUM_DIR}/${name}${theme}${color}-solid/${name}${theme}${color}-solid.svg
-    sed -i "s|#5294e2|#fb8441|"                                                      ${KVANTUM_DIR}/${name}${theme}${color}-solid/${name}${theme}${color}-solid.kvconfig
+    sed -i "s|#5294e2|#fb8441|"                                                      ${KVANTUM_DIR}/${name}${kvantum_theme}${kvantum_color}/${name}${kvantum_theme}${kvantum_color}.svg
+    sed -i "s|#5294e2|#fb8441|"                                                      ${KVANTUM_DIR}/${name}${kvantum_theme}${kvantum_color}/${name}${kvantum_theme}${kvantum_color}.kvconfig
+    sed -i "s|#5294e2|#fb8441|"                                                      ${KVANTUM_DIR}/${name}${kvantum_theme}Solid${kvantum_color}/${name}${kvantum_theme}Solid${kvantum_color}.svg
+    sed -i "s|#5294e2|#fb8441|"                                                      ${KVANTUM_DIR}/${name}${kvantum_theme}Solid${kvantum_color}/${name}${kvantum_theme}Solid${kvantum_color}.kvconfig
   fi
 
   mkdir -p                                                                           ${PLASMA_DIR}/${name}${theme}${ELSE_DARK}
