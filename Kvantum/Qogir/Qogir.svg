@@ -5,7 +5,7 @@
    height="960"
    id="svg927"
    sodipodi:docname="Qogir.svg"
-   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   inkscape:version="1.4.3 (1:1.4.3+202512261035+0d15f75042)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1668,46 +1668,6 @@
      xlink:href="#lineedit-focused-topleft"
      id="lineedit-focused-bottomright"
      transform="rotate(180,395,91.99995)" />
-  <path
-     style="opacity:1;fill:#ffffff;fill-rule:evenodd"
-     id="menu-normal-left"
-     d="m 104.9989,492 h 5 v 48 h -5 z"
-     inkscape:connector-curvature="0" />
-  <path
-     style="opacity:1;fill:#ffffff;fill-rule:evenodd"
-     id="menu-normal-topleft"
-     d="M 109.9989,487 H 105 l -0.001,5 h 5 z"
-     inkscape:connector-curvature="0" />
-  <path
-     style="opacity:1;fill:#ffffff;fill-rule:evenodd"
-     id="menu-normal-top"
-     d="m 157.9992,487.0002 v 5 h -48 v -5 z"
-     inkscape:connector-curvature="0" />
-  <path
-     style="opacity:1;fill:#ffffff;fill-rule:evenodd"
-     id="menu-normal-topright"
-     d="m 162.9989,492.0002 v -4.9989 l -5,-0.001 v 5 z"
-     inkscape:connector-curvature="0" />
-  <path
-     style="opacity:1;fill:#ffffff;fill-rule:evenodd"
-     id="menu-normal-right"
-     d="m 162.9987,492.0002 h -5 v 48 h 5 z"
-     inkscape:connector-curvature="0" />
-  <path
-     style="opacity:1;fill:#ffffff;fill-rule:evenodd"
-     id="menu-normal-bottomright"
-     d="m 157.9987,545.001 h 5 l 10e-4,-5 h -5 z"
-     inkscape:connector-curvature="0" />
-  <path
-     style="opacity:1;fill:#ffffff;fill-rule:evenodd"
-     id="menu-normal-bottom"
-     d="m 109.9997,545.0002 v -5 h 48 v 5 z"
-     inkscape:connector-curvature="0" />
-  <path
-     style="opacity:1;fill:#ffffff;fill-rule:evenodd"
-     id="menu-normal-bottomleft"
-     d="m 104.9993,540.0002 v 4.9989 l 5,10e-4 v -5 z"
-     inkscape:connector-curvature="0" />
   <path
      inkscape:connector-curvature="0"
      d="m 109.9989,492.0002 h 48 v 48 h -48 z"
@@ -6919,4 +6879,36 @@
          inkscape:connector-curvature="0" />
     </g>
   </g>
+  <path
+     style="fill:#d2d2d2;fill-rule:evenodd;opacity:0.4"
+     id="menu-normal-left"
+     d="m 104.9989,492.0002 h 5 v 48 h -5 z" />
+  <path
+     style="fill:#d2d2d2;fill-rule:evenodd;opacity:0.4"
+     id="menu-normal-topleft"
+     d="M 109.9989,487.0002 H 105 l -0.001,5 h 5 z" />
+  <path
+     style="fill:#d2d2d2;fill-rule:evenodd;opacity:0.4"
+     id="menu-normal-top"
+     d="m 157.9989,487.0002 v 5 h -48 v -5 z" />
+  <path
+     style="fill:#d2d2d2;fill-rule:evenodd;opacity:0.4"
+     id="menu-normal-topright"
+     d="m 162.9989,492.0002 v -5 l -5,-0.001 v 5 z" />
+  <path
+     style="fill:#d2d2d2;fill-rule:evenodd;opacity:0.4"
+     id="menu-normal-right"
+     d="m 162.9978,492.0002 h -5 v 48 h 5 z" />
+  <path
+     style="fill:#d2d2d2;fill-rule:evenodd;opacity:0.4"
+     id="menu-normal-bottomright"
+     d="m 157.9977,545.0002 h 4.9989 l 0.001,-5 h -5 z" />
+  <path
+     style="fill:#d2d2d2;fill-rule:evenodd;opacity:0.4"
+     id="menu-normal-bottom"
+     d="m 109.9989,545.0002 v -5 h 48 v 5 z" />
+  <path
+     style="fill:#d2d2d2;fill-rule:evenodd;opacity:0.4"
+     id="menu-normal-bottomleft"
+     d="m 104.9989,540.0002 v 4.9989 h 5 v -4.9989 z" />
 </svg>
