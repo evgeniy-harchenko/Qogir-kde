@@ -157,7 +157,6 @@ text.press.color=white
 text.toggle.color=white
 text.bold=false
 indicator.element=arrow
-indicator.size=0
 frame.expansion=0
 
 [ToolbarButton]
@@ -323,7 +322,6 @@ text.bold=true
 text.normal.color=#1b2224
 text.focus.color=#4c85cb
 text.toggle.color=#32343D
-indicator.element=tarrow
 frame.expansion=0
 
 [SizeGrip]
